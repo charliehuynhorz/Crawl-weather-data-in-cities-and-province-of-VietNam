@@ -2,8 +2,6 @@
 
 A simple Python script using **Requests** + **BeautifulSoup4** to crawl **current weather data** from [Thời tiết 24h](https://thoitiet24h.vn/) for all **63 provinces and cities of Vietnam**, then save the results into a CSV file for further analysis.
 
----
-
 ## 📌 Features
 - Crawl main weather information for each province/city:
   - Date
@@ -14,8 +12,6 @@ A simple Python script using **Requests** + **BeautifulSoup4** to crawl **curren
 - Supports **all 63 provinces and cities of Vietnam**.
 - Export the results to a CSV file: `weather_vietnam_data.csv`.
 
----
-
 ## 📂 Project structure
 ```
 
@@ -25,8 +21,6 @@ A simple Python script using **Requests** + **BeautifulSoup4** to crawl **curren
 └── README.md                # Project documentation
 
 ````
-
----
 
 ## ⚙️ Requirements
 - Python 3.8+
@@ -46,8 +40,6 @@ requests
 beautifulsoup4
 ```
 
----
-
 ## 🚀 How to run
 
 Run the main script:
@@ -61,8 +53,6 @@ After execution, the weather data will be saved into:
 ```
 weather_vietnam_data.csv
 ```
-
----
 
 ## 📊 Output (example)
 
@@ -79,8 +69,6 @@ The CSV file will look like this:
 | Quảng Ninh | 25/09/2025 | 20               | 96           | 0        | 100             |
 | ...        | ...        | ...              | ...          | ...      | ...             |
 
----
-
 ## 🛠️ Future improvements
 
 * Save daily weather → build a time-series weather dataset.
@@ -88,26 +76,20 @@ The CSV file will look like this:
 * Automate with cronjob (Linux) or Task Scheduler (Windows) for daily crawling.
 * Visualize results with **Tableau**, **Power BI**, or **Matplotlib/Seaborn**.
 
----
-
 ## ✨ Notes
 
 * The website structure may change, requiring updates to HTML selectors (`id`, `class`).
 * This script only crawls **current weather data**, not historical data.
 
----
-
 ## 📧 Contact
 
 If you find this project useful, please ⭐ the repo and feel free to contribute or suggest improvements.
 
---------------------------------------------------------------------------------------------------------
+---
 
 # [VN] Crawl weather data in cities and provinces of Vietnam
 
 Một script Python đơn giản dùng **Requests** + **BeautifulSoup4** để crawl dữ liệu **thời tiết hiện tại** từ [Thời tiết 24h](https://thoitiet24h.vn/) cho toàn bộ **63 tỉnh/thành phố Việt Nam**, sau đó lưu ra file CSV để tiện phân tích.
-
----
 
 ## 📌 Tính năng
 - Crawl các thông tin chính từ từng tỉnh/thành:
@@ -119,7 +101,6 @@ Một script Python đơn giản dùng **Requests** + **BeautifulSoup4** để c
 - Hỗ trợ **đầy đủ 63 tỉnh/thành Việt Nam**.
 - Xuất kết quả thành file CSV `weather_vietnam_data.csv`.
 
----
 
 ## 📂 Cấu trúc dự án
 ```
@@ -130,8 +111,6 @@ Một script Python đơn giản dùng **Requests** + **BeautifulSoup4** để c
 └── README.md               # Tài liệu dự án
 
 ````
-
----
 
 ## ⚙️ Yêu cầu
 - Python 3.8+
@@ -151,8 +130,6 @@ requests
 beautifulsoup4
 ```
 
----
-
 ## 🚀 Cách chạy
 
 Chạy script chính:
@@ -166,8 +143,6 @@ Sau khi chạy xong, dữ liệu thời tiết sẽ được lưu vào file:
 ```
 weather_vietnam_data.csv
 ```
-
----
 
 ## 📊 Output (ví dụ)
 
@@ -183,7 +158,7 @@ File CSV sẽ có cấu trúc như sau:
 | Phú Thọ    | 25/09/2025 | 23               | 93           | 0        | 100             |
 | Quảng Ninh | 25/09/2025 | 20               | 96           | 0        | 100             |
 | ...        | ...        | ...              | ...          | ...      | ...             |
----
+
 
 ## 🛠️ Hướng phát triển
 
@@ -192,16 +167,11 @@ File CSV sẽ có cấu trúc như sau:
 * Triển khai cronjob (Linux) hoặc Task Scheduler (Windows) để tự động crawl hằng ngày.
 * Visualize dữ liệu bằng **Tableau**, **Power BI** hoặc **Matplotlib/Seaborn**.
 
----
-
 ## ✨ Ghi chú
 
 * Trang web có thể thay đổi HTML structure → cần cập nhật lại các selector (`id`, `class`).
 * Dữ liệu crawl chỉ là dữ liệu hiện tại, **không phải dữ liệu lịch sử**.
 
----
-
 ## 📧 Liên hệ
 
 Nếu bạn thấy project hữu ích, hãy ⭐ repo này và góp ý cải tiến.
-
