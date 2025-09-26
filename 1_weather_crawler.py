@@ -124,5 +124,5 @@ def crawl_weather():
         writer.writeheader()
         writer.writerows(results)
 
-    print("Saved weather_data.csv")
+    print("File csv is saved")
 crawl_weather()
